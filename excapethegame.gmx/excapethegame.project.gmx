@@ -13,17 +13,29 @@
     <sprite>sprites\S_Kay</sprite>
     <sprite>sprites\S_coin</sprite>
     <sprite>sprites\S_projectial</sprite>
+    <sprite>sprites\S_playButton</sprite>
+    <sprite>sprites\S_optionsButton</sprite>
+    <sprite>sprites\S_quitButton</sprite>
+    <sprite>sprites\S_backButton</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\Obj_Wall</object>
-    <object>objects\Obj_Guard</object>
-    <object>objects\Obj_Player</object>
-    <object>objects\Obj_Door</object>
+    <object>objects\O_wall</object>
+    <object>objects\O_guard</object>
+    <object>objects\O_player</object>
+    <object>objects\O_door</object>
+    <object>objects\O_playButton</object>
+    <object>objects\O_optionsButton</object>
+    <object>objects\O_backButton</object>
+    <object>objects\O_quitButton</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Room1</room>
+    <room>rooms\rm_mainMenu</room>
+    <room>rooms\rm_level_1</room>
+    <room>rooms\rm_options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
