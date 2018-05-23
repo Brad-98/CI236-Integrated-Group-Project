@@ -32,6 +32,7 @@
     <object>objects\O_backButton</object>
     <object>objects\O_quitButton</object>
     <object>objects\O_doorInteraction</object>
+    <object>objects\O_coins</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
