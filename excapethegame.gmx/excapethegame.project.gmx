@@ -16,6 +16,7 @@
     <sprite>sprites\S_optionsButton</sprite>
     <sprite>sprites\S_quitButton</sprite>
     <sprite>sprites\S_backButton</sprite>
+    <sprite>sprites\S_doorInteraction</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -30,6 +31,7 @@
     <object>objects\O_optionsButton</object>
     <object>objects\O_backButton</object>
     <object>objects\O_quitButton</object>
+    <object>objects\O_doorInteraction</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>

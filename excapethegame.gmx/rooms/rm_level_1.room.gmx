@@ -363,6 +363,7 @@
     <instance objName="O_door" x="64" y="192" name="inst_E675757A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_door" x="480" y="64" name="inst_14C10742" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_door" x="480" y="32" name="inst_CD1666BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_doorInteraction" x="58" y="187" name="inst_2975CF31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
