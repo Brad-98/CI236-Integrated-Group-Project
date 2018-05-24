@@ -17,6 +17,7 @@
     <sprite>sprites\S_quitButton</sprite>
     <sprite>sprites\S_backButton</sprite>
     <sprite>sprites\S_bullet</sprite>
+    <sprite>sprites\S_doorInteraction</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -35,6 +36,8 @@
     <objects name="worldObjects">
       <object>objects\O_door</object>
       <object>objects\O_wall</object>
+      <object>objects\O_coin</object>
+      <object>objects\O_doorInteraction</object>
     </objects>
     <objects name="menu Objects ">
       <object>objects\O_playButton</object>
