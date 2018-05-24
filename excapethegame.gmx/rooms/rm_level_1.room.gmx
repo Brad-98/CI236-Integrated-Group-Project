@@ -358,6 +358,7 @@
     <instance objName="O_door" x="64" y="192" name="inst_E675757A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_door" x="480" y="64" name="inst_14C10742" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_door" x="480" y="32" name="inst_CD1666BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="O_wall" x="512" y="96" name="inst_5F698052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="544" y="96" name="inst_BCDB44B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="576" y="96" name="inst_FF596E81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1084,6 +1085,11 @@
     <instance objName="O_wall" x="192" y="320" name="inst_B70B669E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="224" y="320" name="inst_CD888BB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="-352" y="1568" name="inst_B73F2F14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="O_doorInteraction" x="58" y="187" name="inst_2975CF31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_coins" x="143" y="270" name="inst_B1B0B826" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_coins" x="372" y="50" name="inst_9D854FAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> 86f024bd207faa268049dc22856a9cf39aa1fc9c
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

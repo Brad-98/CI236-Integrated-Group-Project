@@ -16,7 +16,11 @@
     <sprite>sprites\S_optionsButton</sprite>
     <sprite>sprites\S_quitButton</sprite>
     <sprite>sprites\S_backButton</sprite>
+<<<<<<< HEAD
     <sprite>sprites\S_bullet</sprite>
+=======
+    <sprite>sprites\S_doorInteraction</sprite>
+>>>>>>> 86f024bd207faa268049dc22856a9cf39aa1fc9c
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -31,7 +35,12 @@
     <object>objects\O_optionsButton</object>
     <object>objects\O_backButton</object>
     <object>objects\O_quitButton</object>
+<<<<<<< HEAD
     <object>objects\Obj_bullet</object>
+=======
+    <object>objects\O_doorInteraction</object>
+    <object>objects\O_coins</object>
+>>>>>>> 86f024bd207faa268049dc22856a9cf39aa1fc9c
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
