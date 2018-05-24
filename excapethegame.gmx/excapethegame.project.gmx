@@ -23,15 +23,28 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\O_wall</object>
-    <object>objects\O_guard</object>
-    <object>objects\O_player</object>
-    <object>objects\O_door</object>
-    <object>objects\O_playButton</object>
-    <object>objects\O_optionsButton</object>
-    <object>objects\O_backButton</object>
-    <object>objects\O_quitButton</object>
-    <object>objects\Obj_bullet</object>
+    <objects name="enemy">
+      <object>objects\O_guard</object>
+    </objects>
+    <objects name="player">
+      <object>objects\O_player</object>
+    </objects>
+    <objects name="global">
+      <object>objects\Obj__Global</object>
+    </objects>
+    <objects name="worldObjects">
+      <object>objects\O_door</object>
+      <object>objects\O_wall</object>
+    </objects>
+    <objects name="menu Objects ">
+      <object>objects\O_playButton</object>
+      <object>objects\O_quitButton</object>
+      <object>objects\O_optionsButton</object>
+      <object>objects\O_backButton</object>
+    </objects>
+    <objects name="Projectials">
+      <object>objects\Obj_bullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>
