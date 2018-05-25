@@ -34,6 +34,8 @@ player_friction = 1;
 
 player_health = 100;
 
+frozen = false;
+
 </string>
           </argument>
         </arguments>
@@ -66,8 +68,10 @@ var down = keyboard_check(ord('S'));
 var down2 = keyboard_check(vk_down);
 var up = keyboard_check(ord('W'));
 var up2 = keyboard_check(vk_up);
-
+show_debug_message(frozen);
 //Movement
+if(frozen == false)
+{
 if(!left || !left2 || right || right2)
 {
     hspd = 0;
@@ -97,6 +101,7 @@ if(down || down2)
 {
     vspd = player_speed;
 }
+}
 
 if(place_meeting(x + hspd, y, O_wall))
 {
@@ -123,8 +128,17 @@ if(place_meeting(x, y, O_doorInteraction))
 {
     if(keyboard_check(ord('E')))
     {
-     show_debug_message("Hello");
+     instance_create(view_xview[0], view_yview[0], O_terminal);
     }
+}
+
+if(instance_exists(O_terminal))
+{
+    frozen = true;
+}
+else
+{
+    frozen = false;
 }
 </string>
           </argument>

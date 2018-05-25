@@ -18,6 +18,7 @@
     <sprite>sprites\S_backButton</sprite>
     <sprite>sprites\S_bullet</sprite>
     <sprite>sprites\S_doorInteraction</sprite>
+    <sprite>sprites\S_terminal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -38,6 +39,7 @@
       <object>objects\O_wall</object>
       <object>objects\O_coin</object>
       <object>objects\O_doorInteraction</object>
+      <object>objects\O_terminal</object>
     </objects>
     <objects name="menu Objects ">
       <object>objects\O_playButton</object>
