@@ -19,6 +19,8 @@
     <sprite>sprites\S_bullet</sprite>
     <sprite>sprites\S_doorInteraction</sprite>
     <sprite>sprites\S_terminal</sprite>
+    <sprite>sprites\S_textInput</sprite>
+    <sprite>sprites\S_textOk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -26,6 +28,9 @@
   <paths name="paths">
     <path>paths\patrol</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\fnt_terminal</font>
+  </fonts>
   <objects name="objects">
     <objects name="enemy">
       <object>objects\O_guard</object>
@@ -34,7 +39,7 @@
       <object>objects\O_player</object>
     </objects>
     <objects name="global">
-      <object>objects\Obj__Global</object>
+      <object>objects\O_globalVars</object>
     </objects>
     <objects name="worldObjects">
       <object>objects\O_door</object>
@@ -42,6 +47,8 @@
       <object>objects\O_coin</object>
       <object>objects\O_doorInteraction</object>
       <object>objects\O_terminal</object>
+      <object>objects\O_textInput</object>
+      <object>objects\O_textOk</object>
     </objects>
     <objects name="menu Objects ">
       <object>objects\O_playButton</object>
