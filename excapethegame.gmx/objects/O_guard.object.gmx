@@ -28,7 +28,11 @@
             <string>///creation and object veriables 
 // enemy player HP 
 Hp = 10;
+//Store starting positions
+s_x = x;
+s_y = y;
 
+path_start(patrol, 1, path_action_continue, false);
 </string>
           </argument>
         </arguments>
@@ -59,6 +63,42 @@ instance_destroy();
 
 // increase score
 score += 10;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>p_x = O_player.x;
+p_y = O_player.y;
+
+if(point_distance(x,y, p_x, p_y) &lt; 150){
+
+    path_end();
+    mp_potential_step_object(p_x, p_y, 3, O_wall);
+    
+} else if(path_index != patrol){
+
+    mp_potential_step_object(p_x, p_y, 2, O_wall);
+    
+    if(abs(x - s_x) &lt; 2 &amp;&amp; abs(y - s_y) &lt; 2){
+        path_start(patrol, 1, path_action_reverse, false);
+    }
 }
 </string>
           </argument>

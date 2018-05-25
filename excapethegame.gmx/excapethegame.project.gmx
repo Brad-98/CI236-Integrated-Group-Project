@@ -23,7 +23,9 @@
   <backgrounds name="background">
     <background>background\bgr_binary</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\patrol</path>
+  </paths>
   <objects name="objects">
     <objects name="enemy">
       <object>objects\O_guard</object>
