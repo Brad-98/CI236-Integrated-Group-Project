@@ -30,7 +30,7 @@ keyboard_string = "";
 
 cursor = "|";
 
-stringSize = 40;
+stringSize = 55;
 </string>
           </argument>
         </arguments>
@@ -53,11 +53,28 @@ stringSize = 40;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.canWrite == true)
+            <string>if(keyboard_check(vk_enter))
+{
+    global.enterPressed = true;
+    global.canWrite = false;
+    cursor = "";
+    
+    if(text = global.question1_answer)
+    {
+        global.question1_correct = true;
+        show_debug_message("GG");
+    }
+    else
+    {
+        global.enterPressed = false;
+        global.canWrite = true;
+        cursor = "|";
+    }
+}
+else if(global.canWrite == true)
 {
     text = string_copy(keyboard_string, 1, stringSize);
 }
-
 </string>
           </argument>
         </arguments>
@@ -81,10 +98,16 @@ stringSize = 40;
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fnt_terminal);
+draw_set_colour(c_white);
 
-if(global.canWrite == true)
+draw_text(x, y, text + cursor);
+
+if(keyboard_check_pressed(vk_enter))
 {
-    draw_text(x, y, text + cursor);
+    if(text != global.question1_answer)
+    {
+        draw_text(O_textInput.x, O_textInput.y + 100, "Incorret Solution Try Again");
+    }
 }
 </string>
           </argument>

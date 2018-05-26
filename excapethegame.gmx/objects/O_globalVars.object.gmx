@@ -25,35 +25,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// globle veriables 
+            <string>///Global Varibles 
 
-//money
 global.Coin = 0;
-//score
 score = 0; 
 
+global.canWrite = false;
+global.enterPressed = false;
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.canWrite = false;
+//Terminal Questions
+global.question1_answer = "Hello";
+global.question1_correct = false;
+
+global.question2_answer = "test2";
+global.question2_correct = false;
+
+global.question3_answer = "test3";
+global.question3_correct = false;
 </string>
           </argument>
         </arguments>
@@ -76,7 +64,7 @@ score = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(instance_exists(O_textInput))
+            <string>if(instance_exists(O_textInput) &amp;&amp; global.enterPressed == false)
 {
     global.canWrite = true;
 }

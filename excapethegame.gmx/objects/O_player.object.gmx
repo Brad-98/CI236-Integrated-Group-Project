@@ -31,8 +31,8 @@
 player_speed = 3;
 hspd = 0;
 vspd = 0;
-player_friction = 1;
-// player health 
+
+//Health
 life = 100;
 
 frozen = false;
@@ -69,6 +69,12 @@ var down = keyboard_check(ord('S'));
 var down2 = keyboard_check(vk_down);
 var up = keyboard_check(ord('W'));
 var up2 = keyboard_check(vk_up);
+
+//Death 
+if (life &lt;= 0)
+{
+    game_end();
+}
 
 //Movement
 if(frozen == false)
@@ -130,8 +136,8 @@ if(frozen == false)
         if(keyboard_check(ord('E')))
         {
          instance_create(view_xview[0], view_yview[0], O_terminal);
-         instance_create(view_xview[0]+100, view_yview[0]+100, O_textInput);
-         instance_create(view_xview[0]+100, view_yview[0]+300, O_textOk);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
         }
     }
 }
@@ -143,10 +149,6 @@ if(instance_exists(O_terminal))
 else
 {
     frozen = false;
-}
-// player death 
-if (life &lt;= 0){
-game_end();
 }
 </string>
           </argument>

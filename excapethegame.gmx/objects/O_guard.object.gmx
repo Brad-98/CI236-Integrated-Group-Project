@@ -25,9 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///creation and object veriables 
-// enemy player HP 
+            <string>///Variables &amp; Path 
+
 Hp = 10;
+
 //Store starting positions
 s_x = x;
 s_y = y;

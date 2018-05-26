@@ -20,7 +20,6 @@
     <sprite>sprites\S_doorInteraction</sprite>
     <sprite>sprites\S_terminal</sprite>
     <sprite>sprites\S_textInput</sprite>
-    <sprite>sprites\S_textOk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -42,13 +41,16 @@
       <object>objects\O_globalVars</object>
     </objects>
     <objects name="worldObjects">
-      <object>objects\O_door</object>
       <object>objects\O_wall</object>
       <object>objects\O_coin</object>
       <object>objects\O_doorInteraction</object>
       <object>objects\O_terminal</object>
       <object>objects\O_textInput</object>
-      <object>objects\O_textOk</object>
+      <objects name="Doors">
+        <object>objects\O_door</object>
+        <object>objects\O_door2</object>
+        <object>objects\O_door3</object>
+      </objects>
     </objects>
     <objects name="menu Objects ">
       <object>objects\O_playButton</object>
