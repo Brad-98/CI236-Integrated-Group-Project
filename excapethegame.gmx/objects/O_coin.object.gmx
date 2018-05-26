@@ -48,7 +48,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>///coin collection 
+
+// detroy the instance of the coin 
+instance_destroy();
+
+//add to coins 
+global.Coin += 1;
+
 </string>
           </argument>
         </arguments>

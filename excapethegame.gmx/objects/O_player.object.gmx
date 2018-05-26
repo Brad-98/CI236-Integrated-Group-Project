@@ -32,8 +32,8 @@ player_speed = 3;
 hspd = 0;
 vspd = 0;
 player_friction = 1;
-
-player_health = 100;
+// player health 
+life = 100;
 
 frozen = false;
 
@@ -143,6 +143,10 @@ if(instance_exists(O_terminal))
 else
 {
     frozen = false;
+}
+// player death 
+if (life &lt;= 0){
+game_end();
 }
 </string>
           </argument>
