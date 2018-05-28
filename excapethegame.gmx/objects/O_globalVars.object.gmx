@@ -72,6 +72,11 @@ else
 {
     global.canWrite = false;
 }
+
+if(keyboard_check(vk_tab))
+{
+    room_restart();
+}
 </string>
           </argument>
         </arguments>

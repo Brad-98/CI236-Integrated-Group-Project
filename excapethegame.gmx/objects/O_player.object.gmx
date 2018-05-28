@@ -140,6 +140,15 @@ if(frozen == false)
          global.enterPressed = false;
         }
     }
+    
+    if(place_meeting(x, y, O_note))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage);
+    }
+    else
+    {
+        instance_destroy(O_notePage);
+    }
 }
 
 if(instance_exists(O_terminal))

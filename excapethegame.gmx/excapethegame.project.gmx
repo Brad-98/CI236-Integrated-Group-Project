@@ -19,7 +19,9 @@
     <sprite>sprites\S_bullet</sprite>
     <sprite>sprites\S_doorInteraction</sprite>
     <sprite>sprites\S_terminal</sprite>
+    <sprite>sprites\S_notePage</sprite>
     <sprite>sprites\S_textInput</sprite>
+    <sprite>sprites\S_note</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_binary</background>
@@ -46,6 +48,8 @@
       <object>objects\O_doorInteraction</object>
       <object>objects\O_terminal</object>
       <object>objects\O_textInput</object>
+      <object>objects\O_note</object>
+      <object>objects\O_notePage</object>
       <objects name="Doors">
         <object>objects\O_door</object>
         <object>objects\O_door2</object>
