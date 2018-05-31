@@ -33,7 +33,8 @@ hspd = 0;
 vspd = 0;
 
 //Health
-life = 100;
+currentHealth = 100;
+maxHealth = 100;
 
 frozen = false;
 
@@ -71,7 +72,7 @@ var up = keyboard_check(ord('W'));
 var up2 = keyboard_check(vk_up);
 
 //Death 
-if (life &lt;= 0)
+if (currentHealth &lt;= 0)
 {
     game_end();
 }
@@ -208,8 +209,11 @@ instance_create(x,y,Obj_bullet);
             <kind>1</kind>
             <string>draw_self();
 
+draw_healthbar(x - 16, y - 16, x + 16, y - 20, currentHealth/maxHealth * 100, c_black, c_red, c_green, 0, true, true);
+
 if(place_meeting(x, y, O_doorInteraction))
 {
+    draw_set_colour(c_white);
     draw_text(O_player.x - 30, O_player.y - 30, "Press E")
 }
 </string>

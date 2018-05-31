@@ -109,9 +109,6 @@ draw_set_colour(c_blue);
 //draw the coins 
 draw_text(view_xview[0]+10,view_yview[0]+10, "Coins: "+string(global.Coin));
 
-//draw the Life 
-draw_text (view_xview[0]+10,view_yview[0]+20, "Life:" +string(O_player.life));
-
 // draw the score 
 draw_text (view_xview[0]+10,view_yview[0]+30, "Score:" +string(score));
 
