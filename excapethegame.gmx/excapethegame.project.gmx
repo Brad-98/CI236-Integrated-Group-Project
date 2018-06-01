@@ -70,6 +70,7 @@
     <room>rooms\rm_mainMenu</room>
     <room>rooms\rm_level_1</room>
     <room>rooms\rm_options</room>
+    <room>rooms\rm_level_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

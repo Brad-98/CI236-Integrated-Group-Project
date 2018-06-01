@@ -34,7 +34,7 @@ global.canWrite = false;
 global.enterPressed = false;
 
 //Terminal Questions
-global.question1_answer = "Hello";
+global.question1_answer = "print('Hello world!')";
 global.question1_correct = false;
 
 global.question2_answer = "test2";
