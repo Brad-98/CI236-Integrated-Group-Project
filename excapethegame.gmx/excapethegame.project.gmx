@@ -63,6 +63,16 @@
         <object>objects\O_door3</object>
         <object>objects\O_door4</object>
         <object>objects\O_door5</object>
+        <object>objects\O_exitlevel1</object>
+        <objects name="level 2 doors">
+          <object>objects\O_door6</object>
+          <object>objects\O_door7</object>
+          <object>objects\O_door8</object>
+          <object>objects\O_door9</object>
+          <object>objects\O_door10</object>
+          <object>objects\O_door11</object>
+          <object>objects\O_exitlevel2</object>
+        </objects>
       </objects>
       <objects name="Interaction">
         <object>objects\O_doorInteraction</object>
