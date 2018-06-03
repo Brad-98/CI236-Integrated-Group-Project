@@ -25,12 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// projectile bullet 
-// bullet move towards mouse 
+            <string>///Bullet 
 
+image_angle = point_direction(x, y, mouse_x, mouse_y);
 move_towards_point(mouse_x,mouse_y,6);
- // firts is the x possition then the y possition thne the speed of the object.
- // this will send the object to the position marked with x and y
 </string>
           </argument>
         </arguments>

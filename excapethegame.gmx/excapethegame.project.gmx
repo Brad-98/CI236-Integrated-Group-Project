@@ -8,7 +8,10 @@
   <sprites name="sprites">
     <sprite>sprites\S_wall</sprite>
     <sprite>sprites\S_guard</sprite>
-    <sprite>sprites\S_player</sprite>
+    <sprite>sprites\S_playerDown</sprite>
+    <sprite>sprites\S_playerUp</sprite>
+    <sprite>sprites\S_playerRight</sprite>
+    <sprite>sprites\S_playerLeft</sprite>
     <sprite>sprites\S_door</sprite>
     <sprite>sprites\S_key</sprite>
     <sprite>sprites\S_coin</sprite>
@@ -45,7 +48,6 @@
     <objects name="worldObjects">
       <object>objects\O_wall</object>
       <object>objects\O_coin</object>
-      <object>objects\O_doorInteraction</object>
       <object>objects\O_terminal</object>
       <object>objects\O_textInput</object>
       <object>objects\O_note</object>
@@ -54,6 +56,10 @@
         <object>objects\O_door</object>
         <object>objects\O_door2</object>
         <object>objects\O_door3</object>
+      </objects>
+      <objects name="Interaction">
+        <object>objects\O_doorInteraction</object>
+        <object>objects\O_doorInteraction2</object>
       </objects>
     </objects>
     <objects name="menu Objects ">

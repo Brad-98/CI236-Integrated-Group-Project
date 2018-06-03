@@ -34,10 +34,10 @@ global.canWrite = false;
 global.enterPressed = false;
 
 //Terminal Questions
-global.question1_answer = "print('Hello world!')";
+global.question1_answer = "hack";
 global.question1_correct = false;
 
-global.question2_answer = "test2";
+global.question2_answer = "print('Hello world!')";
 global.question2_correct = false;
 
 global.question3_answer = "test3";
