@@ -168,6 +168,46 @@ if(frozen == false)
         }
     }
     
+    if(place_meeting(x, y, O_doorInteraction2))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction3))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction4))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction5))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
     if(place_meeting(x, y, O_note))
     {
          instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage);
@@ -240,7 +280,36 @@ draw_healthbar(x, y - 5, x + 30, y - 10, currentHealth/maxHealth * 100, c_black,
 if(place_meeting(x, y, O_doorInteraction))
 {
     draw_set_colour(c_white);
-    draw_text(O_player.x - 30, O_player.y - 30, "Press E")
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction2))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction3))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction4))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction5))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
 }
 </string>
           </argument>

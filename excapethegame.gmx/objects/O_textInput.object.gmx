@@ -64,6 +64,30 @@ stringSize = 55;
         global.question1_correct = true;
         show_debug_message("GG");
     }
+    
+    else if(text = global.question2_answer)
+    {
+        global.question2_correct = true;
+        show_debug_message("GG2");
+    }
+    
+    else if(text = global.question3_answer)
+    {
+        global.question3_correct = true;
+        show_debug_message("GG3");
+    }
+    
+    else if(text = global.question4_answer)
+    {
+        global.question4_correct = true;
+        show_debug_message("GG4");
+    }
+    
+    else if(text = global.question5_answer)
+    {
+        global.question5_correct = true;
+        show_debug_message("GG5");
+    }
     else
     {
         global.enterPressed = false;

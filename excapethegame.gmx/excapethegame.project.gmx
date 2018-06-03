@@ -10,9 +10,12 @@
     <sprite>sprites\S_guard</sprite>
     <sprite>sprites\S_playerDown</sprite>
     <sprite>sprites\S_playerUp</sprite>
+    <sprite>sprites\S_fakePlayer</sprite>
+    <sprite>sprites\S_fakePlayer2</sprite>
     <sprite>sprites\S_playerRight</sprite>
     <sprite>sprites\S_playerLeft</sprite>
     <sprite>sprites\S_door</sprite>
+    <sprite>sprites\S_doorFlip</sprite>
     <sprite>sprites\S_key</sprite>
     <sprite>sprites\S_coin</sprite>
     <sprite>sprites\S_playButton</sprite>
@@ -21,6 +24,7 @@
     <sprite>sprites\S_backButton</sprite>
     <sprite>sprites\S_bullet</sprite>
     <sprite>sprites\S_doorInteraction</sprite>
+    <sprite>sprites\S_doorInteractionFlip</sprite>
     <sprite>sprites\S_terminal</sprite>
     <sprite>sprites\S_notePage</sprite>
     <sprite>sprites\S_textInput</sprite>
@@ -34,6 +38,7 @@
   </paths>
   <fonts name="fonts">
     <font>fonts\fnt_terminal</font>
+    <font>fonts\fnt_text</font>
   </fonts>
   <objects name="objects">
     <objects name="enemy">
@@ -56,11 +61,19 @@
         <object>objects\O_door</object>
         <object>objects\O_door2</object>
         <object>objects\O_door3</object>
+        <object>objects\O_door4</object>
+        <object>objects\O_door5</object>
       </objects>
       <objects name="Interaction">
         <object>objects\O_doorInteraction</object>
         <object>objects\O_doorInteraction2</object>
+        <object>objects\O_doorInteraction3</object>
+        <object>objects\O_doorInteraction4</object>
+        <object>objects\O_doorInteraction5</object>
       </objects>
+      <object>objects\O_fakeDoor</object>
+      <object>objects\O_fakePlayer</object>
+      <object>objects\O_fakePlayer2</object>
     </objects>
     <objects name="menu Objects ">
       <object>objects\O_playButton</object>

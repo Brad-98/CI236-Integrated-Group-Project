@@ -37,11 +37,17 @@ global.enterPressed = false;
 global.question1_answer = "hack";
 global.question1_correct = false;
 
-global.question2_answer = "print('Hello world!')";
+global.question2_answer = "console.log(Hello World!)";
 global.question2_correct = false;
 
 global.question3_answer = "test3";
 global.question3_correct = false;
+
+global.question4_answer = "test3";
+global.question4_correct = false;
+
+global.question5_answer = "test3";
+global.question5_correct = false;
 </string>
           </argument>
         </arguments>
@@ -99,18 +105,12 @@ if(keyboard_check(vk_tab))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// drawing HUDS 
+            <string>///GUI
 
-// text colour 
 draw_set_colour(c_blue);
 
-// draw the text  view poet X and y possition but just the cordinats on the map where to display 
-
-//draw the coins 
 draw_text(view_xview[0]+10,view_yview[0]+10, "Coins: "+string(global.Coin));
 
-// draw the score 
-draw_text (view_xview[0]+10,view_yview[0]+30, "Score:" +string(score));
 
 </string>
           </argument>

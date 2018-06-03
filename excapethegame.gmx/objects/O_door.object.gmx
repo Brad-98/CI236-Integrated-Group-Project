@@ -28,6 +28,7 @@
             <string>if(global.question1_correct == true)
 {
     instance_destroy();
+    instance_destroy(O_doorInteraction);
 }
 </string>
           </argument>
