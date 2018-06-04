@@ -40,10 +40,11 @@ global.question1_correct = false;
 global.question2_answer = "print(Hello World!)";
 global.question2_correct = false;
 
-global.question3_answer = "test3";
+global.question3_answer = "if(a&gt;b)";
+global.question3_answer2 = "if(a &gt; b)";
 global.question3_correct = false;
 
-global.question4_answer = "test3";
+global.question4_answer = "5";
 global.question4_correct = false;
 
 global.question5_answer = "test3";

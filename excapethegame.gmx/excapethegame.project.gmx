@@ -25,7 +25,11 @@
     <sprite>sprites\S_bullet</sprite>
     <sprite>sprites\S_doorInteraction</sprite>
     <sprite>sprites\S_doorInteractionFlip</sprite>
+    <sprite>sprites\S_doorInteractionFlip2</sprite>
     <sprite>sprites\S_terminal</sprite>
+    <sprite>sprites\S_terminal2</sprite>
+    <sprite>sprites\S_terminal3</sprite>
+    <sprite>sprites\S_terminal4</sprite>
     <sprite>sprites\S_notePage</sprite>
     <sprite>sprites\S_notePage1</sprite>
     <sprite>sprites\S_notePage2</sprite>
@@ -60,10 +64,10 @@
     <objects name="worldObjects">
       <object>objects\O_wall</object>
       <object>objects\O_coin</object>
-      <object>objects\O_terminal</object>
       <object>objects\O_textInput</object>
-      <object>objects\O_note</object>
-      <object>objects\O_notePage</object>
+      <object>objects\O_fakeDoor</object>
+      <object>objects\O_fakeDoorFlip</object>
+      <object>objects\O_fakePlayer</object>
       <objects name="Doors">
         <object>objects\O_door</object>
         <object>objects\O_door2</object>
@@ -88,9 +92,26 @@
         <object>objects\O_doorInteraction4</object>
         <object>objects\O_doorInteraction5</object>
       </objects>
-      <object>objects\O_fakeDoor</object>
-      <object>objects\O_fakePlayer</object>
       <object>objects\O_fakePlayer2</object>
+      <objects name="Notes">
+        <object>objects\O_note</object>
+        <object>objects\O_note2</object>
+        <object>objects\O_note3</object>
+        <object>objects\O_note4</object>
+        <object>objects\O_note5</object>
+        <object>objects\O_note6</object>
+        <object>objects\O_note7</object>
+        <object>objects\O_notePage</object>
+        <object>objects\O_notePage2</object>
+        <object>objects\O_notePage3</object>
+        <object>objects\O_notePage4</object>
+      </objects>
+      <objects name="Terminals">
+        <object>objects\O_terminal</object>
+        <object>objects\O_terminal2</object>
+        <object>objects\O_terminal3</object>
+        <object>objects\O_terminal4</object>
+      </objects>
     </objects>
     <objects name="menu Objects ">
       <object>objects\O_playButton</object>

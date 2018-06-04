@@ -347,7 +347,7 @@
     <instance objName="O_wall" x="2016" y="512" name="inst_8B9BE30A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="2016" y="544" name="inst_2CAE2C57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_player" x="96" y="64" name="inst_6C6C7F75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_guard" x="545" y="69" name="inst_92C83580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_guard" x="546" y="50" name="inst_92C83580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="512" y="96" name="inst_5F698052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="544" y="96" name="inst_BCDB44B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="576" y="96" name="inst_FF596E81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1982,10 +1982,6 @@
     <instance objName="O_wall" x="1120" y="480" name="inst_DB80847F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="1088" y="480" name="inst_090B4B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_fakeDoor" x="576" y="512" name="inst_67247C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_fakeDoorFlip" x="928" y="256" name="inst_0434D062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_fakeDoorFlip" x="928" y="576" name="inst_A7F592A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_fakeDoorFlip" x="1728" y="352" name="inst_2807CAC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_fakeDoorFlip" x="1568" y="608" name="inst_B665CFA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_fakePlayer2" x="1824" y="352" name="inst_2B04BF01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_fakePlayer" x="1504" y="672" name="inst_F80B03C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_fakePlayer" x="960" y="288" name="inst_0E2C2D17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1993,6 +1989,13 @@
     <instance objName="O_fakePlayer2" x="640" y="448" name="inst_413B4ED3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_doorInteraction4" x="1373" y="1447" name="inst_9D5CF388" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_doorInteraction5" x="541" y="903" name="inst_ED8EE445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_note2" x="608" y="64" name="inst_2BFB5A9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_note3" x="1408" y="32" name="inst_33285593" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_note4" x="1440" y="1344" name="inst_0F901141" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_fakeDoorFlip" x="1568" y="608" name="inst_51C52AE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_fakeDoorFlip" x="1728" y="352" name="inst_B10B6CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_fakeDoorFlip" x="928" y="576" name="inst_6F03D9FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_fakeDoorFlip" x="928" y="256" name="inst_4683DF67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

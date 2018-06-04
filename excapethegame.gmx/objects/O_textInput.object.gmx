@@ -71,7 +71,7 @@ stringSize = 55;
         show_debug_message("GG2");
     }
     
-    else if(text = global.question3_answer)
+    else if(text = global.question3_answer || text = global.question3_answer2)
     {
         global.question3_correct = true;
         show_debug_message("GG3");
