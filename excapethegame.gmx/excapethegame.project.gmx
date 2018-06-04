@@ -27,6 +27,13 @@
     <sprite>sprites\S_doorInteractionFlip</sprite>
     <sprite>sprites\S_terminal</sprite>
     <sprite>sprites\S_notePage</sprite>
+    <sprite>sprites\S_notePage1</sprite>
+    <sprite>sprites\S_notePage2</sprite>
+    <sprite>sprites\S_notePage3</sprite>
+    <sprite>sprites\S_notePage4</sprite>
+    <sprite>sprites\S_notePage5</sprite>
+    <sprite>sprites\S_notePage6</sprite>
+    <sprite>sprites\S_notePage7</sprite>
     <sprite>sprites\S_textInput</sprite>
     <sprite>sprites\S_note</sprite>
   </sprites>
