@@ -88,6 +88,43 @@ stringSize = 55;
         global.question5_correct = true;
         show_debug_message("GG5");
     }
+    
+    else if(text = global.question6_answer)
+    {
+        global.question6_correct = true;
+        show_debug_message("GG6");
+    }
+    
+    else if(text = global.question7_answer)
+    {
+        global.question7_correct = true;
+        show_debug_message("GG7");
+    }
+    
+    else if(text = global.question8_answer)
+    {
+        global.question8_correct = true;
+        show_debug_message("GG8");
+    }
+    
+    else if(text = global.question9_answer)
+    {
+        global.question9_correct = true;
+        show_debug_message("GG9");
+    }
+    
+    else if(text = global.question10_answer)
+    {
+        global.question10_correct = true;
+        show_debug_message("GG10");
+    }
+    
+    else if(text = global.question11_answer)
+    {
+        global.question11_correct = true;
+        show_debug_message("GG11");
+    }
+    
     else
     {
         global.enterPressed = false;

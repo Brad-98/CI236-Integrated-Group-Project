@@ -24,12 +24,19 @@
     <sprite>sprites\S_backButton</sprite>
     <sprite>sprites\S_bullet</sprite>
     <sprite>sprites\S_doorInteraction</sprite>
+    <sprite>sprites\S_doorInteractionFlip3</sprite>
     <sprite>sprites\S_doorInteractionFlip</sprite>
     <sprite>sprites\S_doorInteractionFlip2</sprite>
     <sprite>sprites\S_terminal</sprite>
     <sprite>sprites\S_terminal2</sprite>
     <sprite>sprites\S_terminal3</sprite>
     <sprite>sprites\S_terminal4</sprite>
+    <sprite>sprites\S_terminal5</sprite>
+    <sprite>sprites\S_terminal6</sprite>
+    <sprite>sprites\S_terminal7</sprite>
+    <sprite>sprites\S_terminal8</sprite>
+    <sprite>sprites\S_terminal9</sprite>
+    <sprite>sprites\S_terminal10</sprite>
     <sprite>sprites\S_notePage</sprite>
     <sprite>sprites\S_notePage1</sprite>
     <sprite>sprites\S_notePage2</sprite>
@@ -90,7 +97,12 @@
         <object>objects\O_doorInteraction2</object>
         <object>objects\O_doorInteraction3</object>
         <object>objects\O_doorInteraction4</object>
-        <object>objects\O_doorInteraction5</object>
+        <object>objects\O_doorInteraction6</object>
+        <object>objects\O_doorInteraction7</object>
+        <object>objects\O_doorInteraction8</object>
+        <object>objects\O_doorInteraction9</object>
+        <object>objects\O_doorInteraction10</object>
+        <object>objects\O_doorInteraction11</object>
       </objects>
       <object>objects\O_fakePlayer2</object>
       <objects name="Notes">
@@ -101,16 +113,27 @@
         <object>objects\O_note5</object>
         <object>objects\O_note6</object>
         <object>objects\O_note7</object>
+        <object>objects\O_note8</object>
         <object>objects\O_notePage</object>
         <object>objects\O_notePage2</object>
         <object>objects\O_notePage3</object>
         <object>objects\O_notePage4</object>
+        <object>objects\O_notePage5</object>
+        <object>objects\O_notePage6</object>
+        <object>objects\O_notePage7</object>
+        <object>objects\O_notePage8</object>
       </objects>
       <objects name="Terminals">
         <object>objects\O_terminal</object>
         <object>objects\O_terminal2</object>
         <object>objects\O_terminal3</object>
         <object>objects\O_terminal4</object>
+        <object>objects\O_terminal5</object>
+        <object>objects\O_terminal6</object>
+        <object>objects\O_terminal7</object>
+        <object>objects\O_terminal8</object>
+        <object>objects\O_terminal9</object>
+        <object>objects\O_terminal10</object>
       </objects>
     </objects>
     <objects name="menu Objects ">
@@ -122,6 +145,7 @@
     <objects name="Projectials">
       <object>objects\Obj_bullet</object>
     </objects>
+    <object>objects\O_nextRoom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>

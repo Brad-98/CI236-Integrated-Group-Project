@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -28,7 +28,6 @@
             <string>///Global Varibles 
 
 global.Coin = 0;
-score = 0; 
 
 global.canWrite = false;
 global.enterPressed = false;
@@ -49,6 +48,24 @@ global.question4_correct = false;
 
 global.question5_answer = "test3";
 global.question5_correct = false;
+
+global.question6_answer = "1001";
+global.question6_correct = false;
+
+global.question7_answer = "101010";
+global.question7_correct = false;
+
+global.question8_answer = "01000100";
+global.question8_correct = false;
+
+global.question9_answer = "10010001";
+global.question9_correct = false;
+
+global.question10_answer = "15";
+global.question10_correct = false;
+
+global.question11_answer = "01101101";
+global.question11_correct = false;
 </string>
           </argument>
         </arguments>

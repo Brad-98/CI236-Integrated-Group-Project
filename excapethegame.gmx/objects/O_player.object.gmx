@@ -207,11 +207,61 @@ if(frozen == false)
         }
     }
     
-    if(place_meeting(x, y, O_doorInteraction5))
+    if(place_meeting(x, y, O_doorInteraction6))
     {
         if(keyboard_check(ord('E')))
         {
-         instance_create(view_xview[0], view_yview[0], O_terminal);
+         instance_create(view_xview[0], view_yview[0], O_terminal5);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction7))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal6);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction8))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal7);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction9))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal8);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction10))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal9);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction11))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal10);
          instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
          global.enterPressed = false;
         }
@@ -252,6 +302,42 @@ if(frozen == false)
     {
         instance_destroy(O_notePage4);
     }
+    
+    if(place_meeting(x, y, O_note5))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage5);
+    }
+    else
+    {
+        instance_destroy(O_notePage5);
+    }
+    
+    if(place_meeting(x, y, O_note6))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage6);
+    }
+    else
+    {
+        instance_destroy(O_notePage6);
+    }
+    
+    if(place_meeting(x, y, O_note7))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage7);
+    }
+    else
+    {
+        instance_destroy(O_notePage7);
+    }
+    
+    if(place_meeting(x, y, O_note8))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage8);
+    }
+    else
+    {
+        instance_destroy(O_notePage8);
+    }
 }
 
 if(instance_exists(O_terminal) ||
@@ -266,6 +352,28 @@ else
     frozen = false;
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="O_nextRoom">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_level_2</room>
           </argument>
         </arguments>
       </action>
@@ -344,7 +452,42 @@ if(place_meeting(x, y, O_doorInteraction4))
     draw_text(O_player.x - 17, O_player.y - 40, "Press E")
 }
 
-if(place_meeting(x, y, O_doorInteraction5))
+if(place_meeting(x, y, O_doorInteraction6))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction7))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction8))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction9))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction10))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction11))
 {
     draw_set_colour(c_white);
     draw_set_font(fnt_text);
