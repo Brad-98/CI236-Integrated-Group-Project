@@ -45,6 +45,12 @@
     <sprite>sprites\S_notePage5</sprite>
     <sprite>sprites\S_notePage6</sprite>
     <sprite>sprites\S_notePage7</sprite>
+    <sprite>sprites\S_notePage8</sprite>
+    <sprite>sprites\S_notePage9</sprite>
+    <sprite>sprites\S_notePage10</sprite>
+    <sprite>sprites\S_notePage11</sprite>
+    <sprite>sprites\S_notePage12</sprite>
+    <sprite>sprites\S_notePage13</sprite>
     <sprite>sprites\S_textInput</sprite>
     <sprite>sprites\S_note</sprite>
   </sprites>
@@ -152,6 +158,7 @@
     <room>rooms\rm_level_1</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_level_2</room>
+    <room>rooms\rm_level_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
