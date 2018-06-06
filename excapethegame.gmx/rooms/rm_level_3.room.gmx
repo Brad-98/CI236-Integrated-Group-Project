@@ -2337,7 +2337,7 @@
     <instance objName="O_wall" x="1632" y="1504" name="inst_A821AB43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="1472" y="1504" name="inst_0448E2D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_wall" x="1504" y="1504" name="inst_97A280DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="O_player" x="192" y="160" name="inst_0A91C840" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="O_player" x="64" y="96" name="inst_0A91C840" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_guard" x="753" y="113" name="inst_5C93B8E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_guard" x="1072" y="113" name="inst_9E978D19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="O_guard" x="1360" y="112" name="inst_1A99E46C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
