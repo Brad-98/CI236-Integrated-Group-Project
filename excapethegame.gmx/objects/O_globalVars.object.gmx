@@ -36,7 +36,7 @@ global.enterPressed = false;
 global.question1_answer = "hack";
 global.question1_correct = false;
 
-global.question2_answer = "print(Hello World!)";
+global.question2_answer = "print('Hello World!')";
 global.question2_correct = false;
 
 global.question3_answer = "if(a&gt;b)";
