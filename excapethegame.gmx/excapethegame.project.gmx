@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\S_wall</sprite>
     <sprite>sprites\S_guard</sprite>
+    <sprite>sprites\S_guardAttack</sprite>
     <sprite>sprites\S_playerDown</sprite>
     <sprite>sprites\S_playerUp</sprite>
     <sprite>sprites\S_fakePlayer</sprite>
@@ -37,6 +38,12 @@
     <sprite>sprites\S_terminal8</sprite>
     <sprite>sprites\S_terminal9</sprite>
     <sprite>sprites\S_terminal10</sprite>
+    <sprite>sprites\S_terminal11</sprite>
+    <sprite>sprites\S_terminal12</sprite>
+    <sprite>sprites\S_terminal13</sprite>
+    <sprite>sprites\S_terminal14</sprite>
+    <sprite>sprites\S_terminal15</sprite>
+    <sprite>sprites\S_terminal16</sprite>
     <sprite>sprites\S_notePage</sprite>
     <sprite>sprites\S_notePage1</sprite>
     <sprite>sprites\S_notePage2</sprite>
@@ -97,6 +104,14 @@
           <object>objects\O_door11</object>
           <object>objects\O_exitlevel2</object>
         </objects>
+        <objects name="levle3">
+          <object>objects\one</object>
+          <object>objects\two</object>
+          <object>objects\three</object>
+          <object>objects\four</object>
+          <object>objects\five</object>
+          <object>objects\six</object>
+        </objects>
       </objects>
       <objects name="Interaction">
         <object>objects\O_doorInteraction</object>
@@ -109,6 +124,12 @@
         <object>objects\O_doorInteraction9</object>
         <object>objects\O_doorInteraction10</object>
         <object>objects\O_doorInteraction11</object>
+        <object>objects\O_doorInteraction12</object>
+        <object>objects\O_doorInteraction13</object>
+        <object>objects\O_doorInteraction14</object>
+        <object>objects\O_doorInteraction15</object>
+        <object>objects\O_doorInteraction16</object>
+        <object>objects\O_doorInteraction17</object>
       </objects>
       <object>objects\O_fakePlayer2</object>
       <objects name="Notes">
@@ -116,11 +137,13 @@
         <object>objects\O_note2</object>
         <object>objects\O_note3</object>
         <object>objects\O_note4</object>
+        <object>objects\O_note21</object>
         <object>objects\O_note5</object>
         <object>objects\O_note6</object>
         <object>objects\O_note7</object>
         <object>objects\O_note8</object>
         <object>objects\O_notePage</object>
+        <object>objects\O_notePage21</object>
         <object>objects\O_notePage2</object>
         <object>objects\O_notePage3</object>
         <object>objects\O_notePage4</object>
@@ -128,6 +151,18 @@
         <object>objects\O_notePage6</object>
         <object>objects\O_notePage7</object>
         <object>objects\O_notePage8</object>
+        <objects name="level3">
+          <object>objects\O_note9</object>
+          <object>objects\O_note10</object>
+          <object>objects\O_note11</object>
+          <object>objects\O_note12</object>
+          <object>objects\O_note13</object>
+          <object>objects\O_notePage9</object>
+          <object>objects\O_notePage10</object>
+          <object>objects\O_notePage11</object>
+          <object>objects\O_notePage12</object>
+          <object>objects\O_notePage13</object>
+        </objects>
       </objects>
       <objects name="Terminals">
         <object>objects\O_terminal</object>
@@ -140,6 +175,12 @@
         <object>objects\O_terminal8</object>
         <object>objects\O_terminal9</object>
         <object>objects\O_terminal10</object>
+        <object>objects\O_terminal11</object>
+        <object>objects\O_terminal12</object>
+        <object>objects\O_terminal13</object>
+        <object>objects\O_terminal14</object>
+        <object>objects\O_terminal15</object>
+        <object>objects\O_terminal16</object>
       </objects>
     </objects>
     <objects name="menu Objects ">
@@ -152,6 +193,8 @@
       <object>objects\Obj_bullet</object>
     </objects>
     <object>objects\O_nextRoom</object>
+    <object>objects\O_nextRoom2</object>
+    <object>objects\O_nextRoomEnd</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainMenu</room>

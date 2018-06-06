@@ -26,14 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>///Variables &amp; Path 
-
+image_speed = 0.1;
 Hp = 10;
 
 //Store starting positions
 s_x = x;
 s_y = y;
 
-path_start(patrol, 1, path_action_continue, false);
+path_start(patrol, 0.325, path_action_continue, false);
 </string>
           </argument>
         </arguments>
@@ -115,6 +115,8 @@ if(point_distance(x,y, p_x, p_y) &lt; 150){
 
     path_end();
     mp_potential_step_object(p_x, p_y, 3, O_wall);
+    sprite_index = S_guardAttack;
+    image_speed = 0.2;
     
 } else if(path_index != patrol){
 

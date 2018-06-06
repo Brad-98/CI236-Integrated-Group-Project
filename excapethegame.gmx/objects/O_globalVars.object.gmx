@@ -66,6 +66,24 @@ global.question10_correct = false;
 
 global.question11_answer = "01101101";
 global.question11_correct = false;
+
+global.question12_answer = "2";
+global.question12_correct = false;
+
+global.question13_answer = "3";
+global.question13_correct = false;
+
+global.question14_answer = "1";
+global.question14_correct = false;
+
+global.question15_answer = "c";
+global.question15_correct = false;
+
+global.question16_answer = "a";
+global.question16_correct = false;
+
+global.question17_answer = "b";
+global.question17_correct = false;
 </string>
           </argument>
         </arguments>
@@ -125,9 +143,10 @@ if(keyboard_check(vk_tab))
             <kind>1</kind>
             <string>///GUI
 
-draw_set_colour(c_blue);
+draw_set_colour(c_white);
+draw_set_font(fnt_text);
 
-draw_text(view_xview[0]+10,view_yview[0]+10, "Coins: "+string(global.Coin));
+draw_text(view_xview[0]+5,view_yview[0]+2, "Coins: "+string(global.Coin));
 
 
 </string>

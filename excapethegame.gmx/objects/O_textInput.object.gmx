@@ -125,6 +125,42 @@ stringSize = 55;
         show_debug_message("GG11");
     }
     
+    else if(text = global.question12_answer)
+    {
+        global.question12_correct = true;
+        show_debug_message("GG12");
+    }
+    
+    else if(text = global.question13_answer)
+    {
+        global.question13_correct = true;
+        show_debug_message("GG13");
+    }
+    
+    else if(text = global.question14_answer)
+    {
+        global.question14_correct = true;
+        show_debug_message("GG14");
+    }
+    
+    else if(text = global.question15_answer)
+    {
+        global.question15_correct = true;
+        show_debug_message("GG15");
+    }
+    
+    else if(text = global.question16_answer)
+    {
+        global.question16_correct = true;
+        show_debug_message("GG16");
+    }
+    
+    else if(text = global.question17_answer)
+    {
+        global.question17_correct = true;
+        show_debug_message("GG17");
+    }
+    
     else
     {
         global.enterPressed = false;
@@ -163,13 +199,7 @@ draw_set_colour(c_white);
 
 draw_text(x, y, text + cursor);
 
-if(keyboard_check_pressed(vk_enter))
-{
-    if(text != global.question1_answer)
-    {
-        draw_text(O_textInput.x, O_textInput.y + 100, "Incorret Solution Try Again");
-    }
-}
+
 </string>
           </argument>
         </arguments>

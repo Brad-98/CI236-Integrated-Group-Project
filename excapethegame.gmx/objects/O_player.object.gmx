@@ -76,7 +76,20 @@ var up2 = keyboard_check(vk_up);
 //Death 
 if (currentHealth &lt;= 0)
 {
-    game_end();
+    x=94;
+    y=64;
+    currentHealth += 100;
+}
+
+if(currentHealth &gt; maxHealth)
+{
+    currentHealth = maxHealth;
+}
+
+if(global.Coin &gt;= 10)
+{
+    currentHealth += 50;
+    global.Coin -= 10;
 }
 
 //Movement
@@ -267,6 +280,66 @@ if(frozen == false)
         }
     }
     
+    if(place_meeting(x, y, O_doorInteraction12))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal11);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction13))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal12);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction14))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal13);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction15))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal14);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction16))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal15);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
+    if(place_meeting(x, y, O_doorInteraction17))
+    {
+        if(keyboard_check(ord('E')))
+        {
+         instance_create(view_xview[0], view_yview[0], O_terminal16);
+         instance_create(view_xview[0] + 116, view_yview[0]+145, O_textInput);
+         global.enterPressed = false;
+        }
+    }
+    
     if(place_meeting(x, y, O_note))
     {
          instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage);
@@ -338,6 +411,60 @@ if(frozen == false)
     {
         instance_destroy(O_notePage8);
     }
+    
+    if(place_meeting(x, y, O_note21))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage21);
+    }
+    else
+    {
+        instance_destroy(O_notePage21);
+    }
+    
+    if(place_meeting(x, y, O_note9))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage9);
+    }
+    else
+    {
+        instance_destroy(O_notePage9);
+    }
+    
+    if(place_meeting(x, y, O_note10))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage10);
+    }
+    else
+    {
+        instance_destroy(O_notePage10);
+    }
+    
+    if(place_meeting(x, y, O_note11))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage11);
+    }
+    else
+    {
+        instance_destroy(O_notePage11);
+    }
+    
+    if(place_meeting(x, y, O_note12))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage12);
+    }
+    else
+    {
+        instance_destroy(O_notePage12);
+    }
+    
+    if(place_meeting(x, y, O_note13))
+    {
+         instance_create(view_xview[0] + 256, view_yview[0] + 192, O_notePage13);
+    }
+    else
+    {
+        instance_destroy(O_notePage13);
+    }
 }
 
 if(instance_exists(O_terminal) ||
@@ -352,6 +479,50 @@ else
     frozen = false;
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="O_nextRoomEnd">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_mainMenu</room>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="O_nextRoom2">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_level_3</room>
           </argument>
         </arguments>
       </action>
@@ -488,6 +659,48 @@ if(place_meeting(x, y, O_doorInteraction10))
 }
 
 if(place_meeting(x, y, O_doorInteraction11))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction12))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction13))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction14))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction15))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction16))
+{
+    draw_set_colour(c_white);
+    draw_set_font(fnt_text);
+    draw_text(O_player.x - 17, O_player.y - 40, "Press E")
+}
+
+if(place_meeting(x, y, O_doorInteraction17))
 {
     draw_set_colour(c_white);
     draw_set_font(fnt_text);
